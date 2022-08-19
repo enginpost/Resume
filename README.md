@@ -9,7 +9,7 @@ I am using a few pieces of client-side technology to create this approach:
 * Loading of JSON data using the javascript Fetch command with syncronous promises to parse the results
 * Separate ES6 JavaScript module files to contain HTML templates for presenting different parts of the resume
 * ES6 JavaScript class notation to create the page App, inherit from importing the HTML templates and building the presentation of the page
-* SCSS styling is used to create the CSS style sheet.
+* SCSS styling is used to create the CSS style sheet. I am using modern SCSS with NPM package and no GULP to watch files. (Check out the package.json file to see how I am watching the files in the "_src" folder.)
 
 ## How to install and run
 
