@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 127 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Artboard1" transform="matrix(1.05634,0,0,1.04415,0,0)">
+        <rect x="0" y="0" width="120" height="75" style="fill:none;"/>
+        <g transform="matrix(0.929916,-5.53533e-17,0,0.997157,1.48603,-1.56945)">
+            <text x="1.184px" y="67.593px" style="font-family:'LibertinusSans', 'Libertinus Sans';font-size:26.503px;">i<tspan x="8.949px 28.906px 43.191px 58.351px 71.974px 94.237px 102.002px 114.247px " y="67.593px 67.593px 67.593px 67.593px 67.593px 67.593px 67.593px 67.593px ">Dynamics</tspan></text>
+        </g>
+        <g transform="matrix(0.946667,0,0,0.957717,3.13466,1.45349)">
+            <path d="M49.563,12.1C51.714,10.563 53.904,9.223 56.016,8.15C69.312,1.397 91.613,-0.251 96.169,5.353C106.242,17.742 94.745,28.317 78.183,38.668C58.875,50.734 38.542,45.421 36.441,43.319C31.637,38.514 32.454,32.23 36.041,26.161L41.413,28.847C39.893,34.615 40.48,40.163 44.882,43.122C46.251,44.043 47.925,44.637 49.814,44.932L66.161,6.216C62.817,6.989 59.194,8.187 55.387,9.868C54.065,10.452 52.715,11.359 51.396,12.507L49.563,12.1ZM76.139,5.133C80.784,5.309 84.209,6.629 85.881,8.761C93.261,18.17 84.185,31.695 73.357,38.433C68.888,41.214 64.109,43.226 59.631,44.289L76.139,5.133ZM46.106,19.226C47.493,20.601 47.269,23.08 45.605,24.759C43.941,26.438 41.464,26.685 40.077,25.31C38.689,23.935 38.914,21.456 40.577,19.777C42.241,18.098 44.718,17.851 46.106,19.226Z" style="fill:rgb(96,174,215);"/>
+        </g>
+    </g>
+</svg>

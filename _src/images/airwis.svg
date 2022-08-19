@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 347 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Artboard1" transform="matrix(1,0,0,1.18523,0,0)">
+        <rect x="0" y="0" width="347" height="56" style="fill:none;"/>
+        <g transform="matrix(0.919753,0,0,0.843717,0.566187,5.21964)">
+            <text x="7.66px" y="39.107px" style="font-family:'Arial-BoldItalicMT', 'Arial', sans-serif;font-weight:700;font-style:italic;font-size:53.825px;fill:rgb(34,62,120);">Air W<tspan x="147.716px 162.671px " y="39.107px 39.107px ">is</tspan>consin</text>
+        </g>
+        <g transform="matrix(0.673504,0,0,0.843717,37.8563,4.37593)">
+            <text x="114.12px" y="55.005px" style="font-family:'BookAntiqua', 'Book Antiqua', serif;font-size:15.706px;fill:rgb(177,31,78);">A<tspan x="140.786px 160.528px 185.469px 209.513px 229.254px 256.757px 280.801px " y="55.005px 55.005px 55.005px 55.005px 55.005px 55.005px 55.005px ">IRLINES</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,0.843717,228,4.37593)">
+            <path d="M8.556,49.895L110.37,49.895" style="fill:none;stroke:rgb(177,32,78);stroke-width:1.02px;"/>
+        </g>
+        <g transform="matrix(1,0,0,0.843717,-0.524647,4.37593)">
+            <path d="M8.556,49.895L110.37,49.895" style="fill:none;stroke:rgb(177,32,78);stroke-width:1.02px;"/>
+        </g>
+    </g>
+</svg>

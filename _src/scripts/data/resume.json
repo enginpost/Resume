@@ -1,0 +1,565 @@
+{
+    "resume":{
+        "docs":[
+            {
+                "type":"doc",
+                "val":""
+            },
+            {
+                "type": "txt",
+                "val": ""
+            },
+            {
+                "type": "pdf",
+                "val": ""
+            }
+        ],
+        "contact_info":{
+            "first_name": "Steve",
+            "last_name": "McDonald",
+            "icon": {
+                "type": "png",
+                "val": "/images/me.png",
+                "alt": "Steve McDonald",
+                "class": "me"
+            },
+            "address": {
+                "street":"2249 Canyon Point",
+                "city": "McKinney",
+                "state": "TX",
+                "zip":"75071"
+            },
+            "phone": "214-394-1055",
+            "email":"steve.social@epst.co",
+            "social":[
+                {
+                    "type": "linkedIn",
+                    "icon":{
+                        "type":"image",
+                        "val": "/images/linkedin.svg",
+                        "alt": "Linked in",
+                        "class": "linked-in"
+                    },
+                    "profile": "https://www.linkedin.com/in/steve-h-mcdonald/"
+                },
+                {
+                    "type": "Behance",
+                    "icon": {
+                        "type": "html",
+                        "val":"/images/behance.svg",
+                        "alt": "behance",
+                        "class": "behance"
+                    },
+                    "profile": "https://www.behance.net/steve-mcdonald"
+                },
+                {
+                    "type": "Artstation",
+                    "icon": {
+                        "type": "image",
+                        "val": "/images/art-station.svg",
+                        "alt": "art station",
+                        "class": "art-station"
+                    },
+                    "profile": "https://www.artstation.com/steve-mcdonald"
+                },
+                {
+                    "type": "Github",
+                    "icon": {
+                        "type": "image",
+                        "val": "/images/github.svg",
+                        "alt": "git hub",
+                        "class": "github"
+                    },
+                    "profile": "https://github.com/enginpost"
+                }
+            ]
+        },
+        "career_summary":"Hello! I'm Steve. I like to provide creative, fun and professional inspiration to teams and products through aesthetic, functional and goal-oriented digital design and development that remains attentive to current needs as well and responsive to researched and empirically observed future audience needs.",
+        "education":[
+            {
+                "title":"Bachelor of Business Administration-MIS",
+                "date":"1997",
+                "group":"University of Wisconsin",
+                "location":"Oshkosh, WI",
+                "icon":{
+                    "type":"image",
+                    "val":"/images/lettermark-osh.svg",
+                    "alt": "university of wisconsin at oshkosh",
+                    "class": "owu"
+                }
+            },
+            {
+                "title": "Certified Associate in Project Management (CAPM)",
+                "date": "2013",
+                "group": "Project Management Institute",
+                "location": "Princeton, NJ",
+                "icon": {
+                    "type": "image",
+                    "val": "/images/pmi-logo-default.svg",
+                    "alt": "product management institute",
+                    "class": "pmi"
+                }
+            },
+            {
+                "title": "Certificate in User Experience Design (UXD)",
+                "date": "2015",
+                "group": "The Weinschenk Institute",
+                "location": "Appleton, WI",
+                "icon": {
+                    "type": "image",
+                    "val": "/images/team-w.svg",
+                    "alt": "Team W",
+                    "class": "team-w"
+                }
+            },
+            {
+                "title": "Certificate in Digital Marketing",
+                "date": "2016",
+                "group": "University of Illinois, Urbana-Champaign via Coursera.org",
+                "location": "Appleton, WI",
+                "icon": {
+                    "type": "image",
+                    "val": "/images/coursera.svg",
+                    "alt": "coursera",
+                    "class": "coursera"
+                }
+            },
+            {
+                "title": "Professional Scrum Master (PSM 1)",
+                "date": "2017",
+                "group": "Scrum.org",
+                "location": "Appleton, WI",
+                "icon": {
+                    "type": "image",
+                    "val": "https://static.scrum.org/web/badges/badge-psmi.svg",
+                    "alt": "professional scrum master badge",
+                    "class": "psm-badge"
+                }
+            },
+            {
+                "title": "Professional Scrum Product Owner (PSPO 1)",
+                "date": "2019",
+                "group": "Scrum.org",
+                "location": "McKinney, TX",
+                "icon": {
+                    "type": "image",
+                    "val": "https://static.scrum.org/web/badges/badge-pspoi.svg",
+                    "alt": "professional scrum product owner",
+                    "class": "pspo"
+                }
+            },
+            {
+                "title": "Professional Scrum with User Experience (PSU 1)",
+                "date": "2022",
+                "group": "Scrum.org",
+                "location": "McKinney, TX",
+                "icon": {
+                    "type": "image",
+                    "val": "https://static.scrum.org/web/badges/badge-psui.svg",
+                    "alt": "professional scrum with user experience",
+                    "class": "psu"
+                }
+            }
+        ],
+        "skills":[
+            {
+                "title":"Web and Graphic Design",
+                "percentage": 0.75
+            },
+            {
+                "title": "Web Development",
+                "percentage": 0.85
+            },
+            {
+                "title": "UX Research",
+                "percentage": 0.60
+            },
+            {
+                "title": "UX Design",
+                "percentage": 0.80
+            },
+            {
+                "title": "Photography",
+                "percentage": 0.70
+            },
+            {
+                "title": "Videography",
+                "percentage": 0.80
+            },
+            {
+                "title": "E-Learning Design",
+                "percentage": 0.75
+            },
+            {
+                "title": "Agile Scrum",
+                "percentage": 0.90
+            },
+            {
+                "title": "Product Ownership",
+                "percentage": 0.90
+            },
+            {
+                "title": "Strategic Planning",
+                "percentage": 0.65
+            },
+            {
+                "title": "Team Management",
+                "percentage": 0.80
+            },
+            {
+                "title": "Budget Planning",
+                "percentage": 0.75
+            },
+            {
+                "title": "Enterprise Coaching",
+                "percentage": 0.90
+            }
+        ],
+        "experiences":[
+            {
+                "role":"Agile Enterprise Coach and Product Owner",
+                "company":"United Health Group",
+                "icon": {
+                    "type": "png",
+                    "val": "/images/optum.svg",
+                    "alt": "optum logo",
+                    "class": "optum-logo"
+                },
+                "location":{
+                    "city":"McKinney",
+                    "state":"TX"
+                },
+                "date":{
+                    "from":"2018-05-01",
+                    "to":""
+                },
+                "split":{
+                    "managerial": 0.10,
+                    "creative": 0.60,
+                    "technical": 0.30
+
+                },
+                "accomplishments":[
+                    "Coaching VPs, Directors, Managers, and Teams",
+                    "crafting enterprise vision for transformation and operations scaled across more than 100 teams",
+                    "Authoring training and training dev teams, POs, and Scrum Masters on Scrum and Kanban as well as leadership on oversight through the metrics of empowered teams.",
+                    "Product Owner for Optum Tech University Websites serving UHG staff with learn, coaching, delivery tools & analytics, and event services"
+                ]
+            },
+            {
+                "role": "Web Development Manager and Product Owner",
+                "company": "Navitus Health Solutions",
+                "icon": {
+                    "type": "svg",
+                    "val": "/images/navitus.svg",
+                    "alt": "navitus logo",
+                    "class": "navitus-logo"
+                },
+                "location": {
+                    "city": "Appleton",
+                    "state": "WI"
+                },
+                "date": {
+                    "from": "2014-08-01",
+                    "to": "2018-05-01"
+                },
+                "split": {
+                    "managerial": 0.50,
+                    "creative": 0.20,
+                    "technical": 0.30
+                },
+                "accomplishments": [
+                    "Leading the careers of five Web Developers and coordinated sprint efforts for additional UX and Graphic Designers",
+                    "Managed the budget in coordination with directors and vice presidents to align our work with organizational objectives",
+                    "Worked with IT and business leadership to roadmap product goals and vision for hudreds of public-facing member, provider, and partner Websites."
+                ]
+            },
+            {
+                "role": "Creative Web Development Manager",
+                "company": "Princeton University",
+                "icon": {
+                    "type": "svg",
+                    "val": "/images/princeton.svg",
+                    "alt": "princeton logo",
+                    "class": "princeton-logo"
+                },
+                "location": {
+                    "city": "Princeton",
+                    "state": "NJ"
+                },
+                "date": {
+                    "from": "2011-04-01",
+                    "to": "2014-05-01"
+                },
+                "split": {
+                    "managerial": 0.33,
+                    "creative": 0.33,
+                    "technical": 0.34
+                },
+                "accomplishments": [
+                    "Web Development Manager for Princeton University, Office of Communications",
+                    "Web design, development, photography and videography for news, public relations, and events for the campus",
+                    "Perform audience research for princeton.edu",
+                    "Created interactive mixed media presentations for the Web"
+                ]
+            },
+            {
+                "role": "Senior Multimedia Developer & Web Coordinator",
+                "company": "Oak Grove Technologies",
+                "icon": {
+                    "type": "svg",
+                    "val": "/images/oakgrovetech.svg",
+                    "alt": "oak grove tech logo",
+                    "class": "oak-grove-tech-logo"
+                },
+                "location": {
+                    "city": "Alexandria",
+                    "state": "VA"
+                },
+                "date": {
+                    "from": "2009-02-01",
+                    "to": "2011-04-01"
+                },
+                "split": {
+                    "managerial": 0.30,
+                    "creative": 0.15,
+                    "technical": 0.55
+                },
+                "accomplishments": [
+                    "Led e-learning and large scale training initiatives for the Veteran's Administration",
+                    "Web-based management information systems solutions for the Department of Defense",
+                    "Fund raising and identity Website for the Green Beret Foundation",
+                    "Mentored junior designers and developers.",
+                    "Crafted video production planning, script writing, shot planning, and post productions efforts."
+                ]
+            },
+            {
+                "role": "Senior Web Developer",
+                "company": "NX Level Solutions",
+                "icon": {
+                    "type": "png",
+                    "val": "/images/nxlevelsolutions.svg",
+                    "alt": "N.X. Level Solutions logo",
+                    "class": "nxl-logo"
+                },
+                "location": {
+                    "city": "Hopewell",
+                    "state": "NJ"
+                },
+                "date": {
+                    "from": "2007-11-01",
+                    "to": "2009-02-01"
+                },
+                "split": {
+                    "managerial": 0.15,
+                    "creative": 0.20,
+                    "technical": 0.65
+                },
+                "accomplishments": [
+                    "Worked with clients and subject matter experts to design new innovative approaches to e-learning storytelling",
+                    "Created a new framework for e-learning development, theming, and functional reuse.",
+                    "led junior designers and developers in the design, development and creation of project assets."
+                ]
+            },
+            {
+                "role": "Web Portal Developer",
+                "company": "Air Wisconsin Airlines Corporation",
+                "icon": {
+                    "type": "png",
+                    "val": "/images/airwis.svg",
+                    "alt": "air wisconsin logo",
+                    "class": "airwis-logo"
+                },
+                "location": {
+                    "city": "Appleton",
+                    "state": "WI"
+                },
+                "date": {
+                    "from": "2006-10-01",
+                    "to": "2007-11-01"
+                },
+                "split": {
+                    "managerial": 0.33,
+                    "creative": 0.33,
+                    "technical": 0.34
+                },
+                "accomplishments": [
+                    "Building intranet sites and applications on SharePoint 2007",
+                    "Dynamically loaded ajaxian experiences using C#, Adobe Flash, SQL Server, HTML, CSS",
+                    "Developed onboarding tools and just-in-time integrated SharePoint application training"
+                ]
+            },
+            {
+                "role": "Lead Programmer Analyst",
+                "company": "Experimental Aircraft Association",
+                "icon": {
+                    "type": "png",
+                    "val": "/images/eaa.svg",
+                    "alt": "experimental aircraft logo",
+                    "class": "eaa-logo"
+                },
+                "location": {
+                    "city": "Oshkosh",
+                    "state": "WI"
+                },
+                "date": {
+                    "from": "2004-11-01",
+                    "to": "2006-10-01"
+                },
+                "split": {
+                    "managerial": 0.10,
+                    "creative": 0.20,
+                    "technical": 0.70
+                },
+                "accomplishments": [
+                    "Performed member, service, and partner research for the implementation of a new membership management platform",
+                    "Coordinated RFQ and vendor demos for new member management platform",
+                    "Built the original EAA Fly-In RideShare community travel sharing and planning tool."
+                ]
+            },
+            {
+                "role": "Information Technology Director",
+                "company": "Rawhide Incorporated",
+                "icon": {
+                    "type": "png",
+                    "val": "/images/rawhide.svg",
+                    "alt": "rawhide logo",
+                    "class": "rawhide-logo"
+                },
+                "location": {
+                    "city": "New London",
+                    "state": "WI"
+                },
+                "date": {
+                    "from": "2002-09-01",
+                    "to": "2004-06-01"
+                },
+                "split": {
+                    "managerial": 0.30,
+                    "creative": 0.10,
+                    "technical": 0.40
+                },
+                "accomplishments": [
+                    "Leader on the executive team for the adjudicated social services non-profit.",
+                    "Managed the staff and budget of a small team (1 dev, 1 PM Analyst, 1 Network Admin)",
+                    "Budgeting and planning for the aquisition and depriciation of technical assets for 3 campus across Wisconsin.",
+                    "Upgraded and modernization of the network, from novel to fiber Active Directory network managed by Microsoft technologies.",
+                    "Managed and negotiated partner service resources to augment staffing for larger technology initiatives."
+                ]
+            },
+            {
+                "role": "23-bit Software Development Manager",
+                "company": "Plexus Corporation (Electronic Assembly)",
+                "icon": {
+                    "type": "png",
+                    "val": "/images/plexus.svg",
+                    "alt": "plexus logo",
+                    "class": "plexus-logo"
+                },
+                "location": {
+                    "city": "Neenah",
+                    "state": "WI"
+                },
+                "date": {
+                    "from": "1999-02-01",
+                    "to": "2001-01-01"
+                },
+                "split": {
+                    "managerial": 0.60,
+                    "creative": 0.10,
+                    "technical": 0.30
+                },
+                "accomplishments": [
+                    "Managed and supervised proprietary 32-bit windows ETL service to convert electronic test figure data from electronic manufacturing assembly lines producing millions of test records per hour.",
+                    "Promoted to manager the non-unix/non-mainframe development team working in modern 3rd and 4th gen languages."
+                ]
+            },
+            {
+                "role": "Creative Web Development",
+                "company": "Freelance Web Design and Development",
+                "icon": {
+                    "type": "svg",
+                    "val": "/images/ep.svg",
+                    "alt": "engine post logo",
+                    "class": "ep-logo"
+                },
+                "location": {
+                    "city": "Neenah",
+                    "state": "WI"
+                },
+                "date": {
+                    "from": "2004-06-01",
+                    "to": "2007-11-01"
+                },
+                "split": {
+                    "managerial": 0.10,
+                    "creative": 0.20,
+                    "technical": 0.70
+                },
+                "accomplishments": [
+                    "UX and aesthetic development and design for Web",
+                    "Created tower adverts for Car dealerships",
+                    "Created tower and banner adverts for Pepsi/Baja Blast Taco Bell product",
+                    "Made updates and created new functionality on Barney Hit Entertainment site",
+                    "Built skinnabled hang-man-like Web game for a Chicago-based radio show",
+                    "Invented an ajaxian cross-domain approach to loading huge data using a headless implementation of Adobe Flash that could load data from other websites without needing server-side proxies (called FJax)."
+                ]
+            },
+            {
+                "role": "Senior Web Developer",
+                "company": "iDynamics Corporation",
+                "icon": {
+                    "type": "gif",
+                    "val": "/images/idynamics.svg",
+                    "alt": "iDynamics logo",
+                    "class": "idynamics-logo"
+                },
+                "location": {
+                    "city": "Oshkosh",
+                    "state": "WI"
+                },
+                "date": {
+                    "from": "2001-01-01",
+                    "to": "2002-09-01"
+                },
+                "split": {
+                    "managerial": 0.10,
+                    "creative": 0.20,
+                    "technical": 0.70
+                },
+                "accomplishments": [
+                    "First US employee for a small British company located in Leeds, UK",
+                    "Created a static Web Content Management System that used MS Office tools to create and edit pages as well as define site navigation.",
+                    "Created a XML-based vendor communication tool that forwarded shipping invoices and manifests to partner businesses using Web Services and presented the data using a report presentation tool I created using XSLT transformations into printable PDFs."
+                ]
+            },
+            {
+                "role": "Telephony Developer",
+                "company": "CBN/Compass Technology Management",
+                "icon": {
+                    "type": "gif",
+                    "val": "/images/compass.svg",
+                    "alt": "compass technology management logo",
+                    "class": "compass-logo"
+                },
+                "location": {
+                    "city": "Virginia Beach",
+                    "state": "VA"
+                },
+                "date": {
+                    "from": "1998-09-01",
+                    "to": "1999-02-01"
+                },
+                "split": {
+                    "managerial": 0.05,
+                    "creative": 0.15,
+                    "technical": 0.80
+                },
+                "accomplishments": [
+                    "Marketing communication project management",
+                    "Corporate Telephony bill reporting"
+                ]
+            }
+        ]
+    }
+}

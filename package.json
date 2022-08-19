@@ -1,0 +1,33 @@
+{
+    "name": "project",
+    "version": "0.1.0",
+    "description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync for static HTML",
+    "main": "_site/index.html",
+    "author": "5t3ph",
+    "scripts": {
+        "build:sass": "sass  --no-source-map _src/sass:_site/css",
+        "copy:scripts": "copyfiles -u 1 ./_src/scripts/**/* _site",
+        "copy:images": "copyfiles -u 1 ./_src/images/**/* _site",
+        "copy:html": "copyfiles -u 1 ./_src/*.html _site",
+        "copy": "npm-run-all --parallel copy:*",
+        "watch:html": "onchange \"_src/*.html\" -- npm run copy:html",
+        "watch:images": "onchange \"_src/images/*\" -- npm run copy:images",
+        "watch:scripts": "onchange \"_src/scripts/**/*\" -- npm run copy:scripts",
+        "watch:sass": "sass  --no-source-map --watch _src/sass:_site/css",
+        "watch": "npm-run-all --parallel watch:*",
+        "serve": "browser-sync start --server _site --files _site",
+        "start": "npm-run-all copy --parallel watch serve",
+        "build": "npm-run-all copy build:*",
+        "postbuild": "postcss _site/css/*.css -u autoprefixer cssnano -r --no-map"
+    },
+    "dependencies": {
+        "autoprefixer": "^10.4.2",
+        "browser-sync": "^2.27.7",
+        "copyfiles": "^2.4.1",
+        "cssnano": "^5.0.17",
+        "npm-run-all": "^4.1.5",
+        "onchange": "^7.1.0",
+        "postcss-cli": "^9.1.0",
+        "sass": "^1.49.8"
+    }
+}
