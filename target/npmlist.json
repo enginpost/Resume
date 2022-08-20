@@ -1,0 +1,1 @@
+{"version":"0.1.0","name":"project","dependencies":{"autoprefixer":{"version":"10.4.8"},"browser-sync":{"version":"2.27.10"},"copyfiles":{"version":"2.4.1"},"cssnano":{"version":"5.1.12"},"npm-run-all":{"version":"4.1.5"},"onchange":{"version":"7.1.0"},"postcss-cli":{"version":"9.1.0"},"sass":{"version":"1.54.3"}}}
