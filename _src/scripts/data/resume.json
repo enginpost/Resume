@@ -36,7 +36,7 @@
                     "type": "linkedIn",
                     "icon":{
                         "type":"image",
-                        "val": "/images/linkedin.svg",
+                        "val": "/images/linkedin.svg#linkedIn",
                         "alt": "Linked in",
                         "class": "linked-in"
                     },
