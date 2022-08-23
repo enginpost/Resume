@@ -14,12 +14,11 @@ body {
     border-radius: .5rem;
     box-shadow: 0 0 3px rgba(0,0,0,.75);
     background-color: rgb(228, 228, 228);
+    display: flex;
 }
 .icon{
-    display:block;
+    display:flex;
     position:relative;
-    float:left;
-    clear:none;
     img{
         margin: 0 1rem 0 0;
         border-radius: 50%;
@@ -30,15 +29,37 @@ body {
     width: auto;
     border-radius:50%;
 }
-.social img{
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    row-gap: .2rem;;
+}
+.social .img{
     width: 35px;
     height:35px;
-    display: inline-block;
     margin: 5px;
-    color:rgba(121, 120, 120, 0.75);
+}
+/* SVG colors for social media */
+.bg-color {
+    fill: rgb(255, 255, 255);
+}
+.fg-color {
+    fill: rgb(138, 138, 164);
 }
 .linked-in{
-    --color1: red;
+    --backgroundColor: rgb(10, 102, 194);
+    --color: white;
+}
+.github{
+    --backgroundColor: rgb(10, 102, 194);
+    --color: white;
+}
+.art-station {
+    --backgroundColor: rgb(10, 102, 194);
+    --color: white;
+}
+.behance{
+    --color:rgb(10, 102, 194);
 }
 
 // SECTION EDUCATION
@@ -50,24 +71,30 @@ body {
     background-color: rgb(228, 228, 228);
 }
 .certificate{
-    display: block;
+    display: flex;
     position: relative;
-    clear:right;
+    margin: 5px;
 }
 .certificate-image{
-    display:block;
+    display:flex;
     position:relative;
-    float:left;
-    clear:none;
     background-color: #fff;
+    width: 15rem;
+    height: 7rem;
     margin-right: 1rem;
-    border-radius: 50%;
-    overflow: hidden;
-    img{
-        width:  100px;
-        height: 100px;
-        padding: .25rem;
-    }
+    align-content: center;
+    border-radius: 5%;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center center;
+}
+.uwo, .pmi, .team-w, .coursera, .psm-1, .pspo-1, .psu-1{
+    background-image: var( --bg-image);
+}
+.certificate-content{
+    display: flex;
+    flex-direction: column;
 }
 .experience{
     img{

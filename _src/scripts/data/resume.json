@@ -36,7 +36,7 @@
                     "type": "linkedIn",
                     "icon":{
                         "type":"image",
-                        "val": "/images/linkedin.svg#linkedIn",
+                        "val": "/images/linkedin.svg",
                         "alt": "Linked in",
                         "class": "linked-in"
                     },
@@ -56,7 +56,7 @@
                     "type": "Artstation",
                     "icon": {
                         "type": "image",
-                        "val": "/images/art-station.svg",
+                        "val": "/images/artstation.svg",
                         "alt": "art station",
                         "class": "art-station"
                     },
@@ -83,9 +83,9 @@
                 "location":"Oshkosh, WI",
                 "icon":{
                     "type":"image",
-                    "val":"/images/lettermark-osh.svg",
+                    "val":"/images/uwo.svg",
                     "alt": "university of wisconsin at oshkosh",
-                    "class": "owu"
+                    "class": "uwo"
                 }
             },
             {
@@ -95,7 +95,7 @@
                 "location": "Princeton, NJ",
                 "icon": {
                     "type": "image",
-                    "val": "/images/pmi-logo-default.svg",
+                    "val": "/images/pmi.svg",
                     "alt": "product management institute",
                     "class": "pmi"
                 }
@@ -131,9 +131,9 @@
                 "location": "Appleton, WI",
                 "icon": {
                     "type": "image",
-                    "val": "https://static.scrum.org/web/badges/badge-psmi.svg",
+                    "val": "/images/psm-1.svg",
                     "alt": "professional scrum master badge",
-                    "class": "psm-badge"
+                    "class": "psm-1"
                 }
             },
             {
@@ -143,9 +143,9 @@
                 "location": "McKinney, TX",
                 "icon": {
                     "type": "image",
-                    "val": "https://static.scrum.org/web/badges/badge-pspoi.svg",
+                    "val": "/images/pspo-1.svg",
                     "alt": "professional scrum product owner",
-                    "class": "pspo"
+                    "class": "pspo-1"
                 }
             },
             {
@@ -155,9 +155,9 @@
                 "location": "McKinney, TX",
                 "icon": {
                     "type": "image",
-                    "val": "https://static.scrum.org/web/badges/badge-psui.svg",
+                    "val": "/images/psu-1.svg",
                     "alt": "professional scrum with user experience",
-                    "class": "psu"
+                    "class": "psu-1"
                 }
             }
         ],

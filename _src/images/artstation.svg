@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="/css/main.css" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-91.3723,0)">
+        <g id="ArtStation" transform="matrix(0.8,0,0,0.888889,91.3723,0)">
+            <rect x="0" y="0" width="50" height="45" style="fill:none;"/>
+            <g transform="matrix(1.25,0,0,1.125,-114.215,0)" class="bg-color">
+                <path d="M107.64,4.605L94.004,28.341L98.743,33.364L118.981,35.227L125.253,35.227L125.298,24.912L107.64,4.605Z" />
+            </g>
+            <g transform="matrix(1.25,0,0,1.125,-114.215,0)" class="fg-color">
+                <path d="M107.64,4.648L125.258,35.227C125.258,35.227 127.317,31.784 128.194,30.198C129.072,28.611 128.835,27.734 127.89,26.046C126.945,24.359 117.832,8.698 116.854,6.74C115.875,4.783 114.052,4.648 113.512,4.614C112.972,4.58 107.64,4.648 107.64,4.648ZM94.004,28.375L115.402,28.341L119.491,35.227L100.489,35.227C98.903,35.227 97.717,35.024 96.873,33.573C96.029,32.121 94.004,28.375 94.004,28.375ZM104.703,9.744L112.601,23.279L96.873,23.312L104.703,9.744Z"/>
+            </g>
+        </g>
+    </g>
+</svg>

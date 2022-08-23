@@ -5,8 +5,10 @@ export function educationInfo_template(education_info) { return `
         return `
 
         <div class="certificate">
-            <div class="certificate-image ${certificate.icon.class}" 
-                style="--bg-image: url(${certificate.icon.val})">
+            <div class="certificate-image ${certificate.icon.class}">
+                <svg alt="${certificate.icon.alt}" preserveAspectRatio="xMidYMid meet" x="0" y="0">
+                    <use href="${certificate.icon.val}"></use>
+                </svg>
             </div>
             <div class="certificate-content">
                 <div class="title">${certificate.title}</div>
