@@ -164,55 +164,55 @@
         "skills":[
             {
                 "title":"Web and Graphic Design",
-                "percentage": 0.75
+                "percentage": 75
             },
             {
                 "title": "Web Development",
-                "percentage": 0.85
+                "percentage": 85
             },
             {
                 "title": "UX Research",
-                "percentage": 0.60
+                "percentage": 60
             },
             {
                 "title": "UX Design",
-                "percentage": 0.80
+                "percentage": 80
             },
             {
                 "title": "Photography",
-                "percentage": 0.70
+                "percentage": 70
             },
             {
                 "title": "Videography",
-                "percentage": 0.80
+                "percentage": 80
             },
             {
                 "title": "E-Learning Design",
-                "percentage": 0.75
+                "percentage": 75
             },
             {
                 "title": "Agile Scrum",
-                "percentage": 0.90
+                "percentage": 90
             },
             {
                 "title": "Product Ownership",
-                "percentage": 0.90
+                "percentage": 90
             },
             {
                 "title": "Strategic Planning",
-                "percentage": 0.65
+                "percentage": 65
             },
             {
                 "title": "Team Management",
-                "percentage": 0.80
+                "percentage": 80
             },
             {
                 "title": "Budget Planning",
-                "percentage": 0.75
+                "percentage": 75
             },
             {
                 "title": "Enterprise Coaching",
-                "percentage": 0.90
+                "percentage": 90
             }
         ],
         "experiences":[
@@ -234,9 +234,9 @@
                     "to":""
                 },
                 "split":{
-                    "managerial": 0.10,
-                    "creative": 0.60,
-                    "technical": 0.30
+                    "managerial": 10,
+                    "creative": 60,
+                    "technical": 30
 
                 },
                 "accomplishments":[
@@ -264,9 +264,9 @@
                     "to": "2018-05-01"
                 },
                 "split": {
-                    "managerial": 0.50,
-                    "creative": 0.20,
-                    "technical": 0.30
+                    "managerial": 50,
+                    "creative": 20,
+                    "technical": 30
                 },
                 "accomplishments": [
                     "Leading the careers of five Web Developers and coordinated sprint efforts for additional UX and Graphic Designers",
@@ -292,9 +292,9 @@
                     "to": "2014-05-01"
                 },
                 "split": {
-                    "managerial": 0.33,
-                    "creative": 0.33,
-                    "technical": 0.34
+                    "managerial": 33,
+                    "creative": 33,
+                    "technical": 34
                 },
                 "accomplishments": [
                     "Web Development Manager for Princeton University, Office of Communications",
@@ -321,9 +321,9 @@
                     "to": "2011-04-01"
                 },
                 "split": {
-                    "managerial": 0.30,
-                    "creative": 0.15,
-                    "technical": 0.55
+                    "managerial": 30,
+                    "creative": 15,
+                    "technical": 55
                 },
                 "accomplishments": [
                     "Led e-learning and large scale training initiatives for the Veteran's Administration",
@@ -351,9 +351,9 @@
                     "to": "2009-02-01"
                 },
                 "split": {
-                    "managerial": 0.15,
-                    "creative": 0.20,
-                    "technical": 0.65
+                    "managerial": 15,
+                    "creative": 20,
+                    "technical": 65
                 },
                 "accomplishments": [
                     "Worked with clients and subject matter experts to design new innovative approaches to e-learning storytelling",
@@ -379,9 +379,9 @@
                     "to": "2007-11-01"
                 },
                 "split": {
-                    "managerial": 0.33,
-                    "creative": 0.33,
-                    "technical": 0.34
+                    "managerial": 33,
+                    "creative": 33,
+                    "technical": 34
                 },
                 "accomplishments": [
                     "Building intranet sites and applications on SharePoint 2007",
@@ -407,9 +407,9 @@
                     "to": "2006-10-01"
                 },
                 "split": {
-                    "managerial": 0.10,
-                    "creative": 0.20,
-                    "technical": 0.70
+                    "managerial": 10,
+                    "creative": 20,
+                    "technical": 70
                 },
                 "accomplishments": [
                     "Performed member, service, and partner research for the implementation of a new membership management platform",
@@ -435,9 +435,9 @@
                     "to": "2004-06-01"
                 },
                 "split": {
-                    "managerial": 0.30,
-                    "creative": 0.10,
-                    "technical": 0.40
+                    "managerial": 30,
+                    "creative": 10,
+                    "technical": 40
                 },
                 "accomplishments": [
                     "Leader on the executive team for the adjudicated social services non-profit.",
@@ -465,9 +465,9 @@
                     "to": "2001-01-01"
                 },
                 "split": {
-                    "managerial": 0.60,
-                    "creative": 0.10,
-                    "technical": 0.30
+                    "managerial": 60,
+                    "creative": 10,
+                    "technical": 30
                 },
                 "accomplishments": [
                     "Managed and supervised proprietary 32-bit windows ETL service to convert electronic test figure data from electronic manufacturing assembly lines producing millions of test records per hour.",
@@ -492,9 +492,9 @@
                     "to": "2007-11-01"
                 },
                 "split": {
-                    "managerial": 0.10,
-                    "creative": 0.20,
-                    "technical": 0.70
+                    "managerial": 10,
+                    "creative": 20,
+                    "technical": 70
                 },
                 "accomplishments": [
                     "UX and aesthetic development and design for Web",
@@ -523,9 +523,9 @@
                     "to": "2002-09-01"
                 },
                 "split": {
-                    "managerial": 0.10,
-                    "creative": 0.20,
-                    "technical": 0.70
+                    "managerial": 10,
+                    "creative": 20,
+                    "technical": 70
                 },
                 "accomplishments": [
                     "First US employee for a small British company located in Leeds, UK",
@@ -551,9 +551,9 @@
                     "to": "1999-02-01"
                 },
                 "split": {
-                    "managerial": 0.05,
-                    "creative": 0.15,
-                    "technical": 0.80
+                    "managerial": 5,
+                    "creative": 15,
+                    "technical": 80
                 },
                 "accomplishments": [
                     "Marketing communication project management",
