@@ -448,7 +448,7 @@
                 ]
             },
             {
-                "role": "23-bit Software Development Manager",
+                "role": "32-bit Software Development Manager",
                 "company": "Plexus Corporation (Electronic Assembly)",
                 "icon": {
                     "type": "png",
@@ -470,7 +470,7 @@
                     "technical": 30
                 },
                 "accomplishments": [
-                    "Managed and supervised proprietary 32-bit windows ETL service to convert electronic test figure data from electronic manufacturing assembly lines producing millions of test records per hour.",
+                    "Managed and supervised proprietary 32-bit windows ETL service to convert electronic test fixture data from electronic manufacturing assembly lines producing millions of test records per hour.",
                     "Promoted to manager the non-unix/non-mainframe development team working in modern 3rd and 4th gen languages."
                 ]
             },

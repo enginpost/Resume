@@ -1,26 +1,30 @@
 @use 'reset/reset';
 @use 'foundation/foundation';
 
-//PAGE
+// PAGE
 :root{
-    --accent-color: #739AC6
+    --accent-color: #739AC6;
+    --experience-container-padding: 1rem;
 }
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
     font-size: 14pt;
     margin: 2rem;
+}
+h2{
+    text-align: center;
+    padding: 1rem;
 }
 
 // SECTION: Contact Information
 .contact-info{
-    padding: .5rem;
+    padding: .75rem;
     border-radius: .5rem;
     box-shadow: 0 0 3px rgba(0,0,0,.75);
     background-color: rgb(228, 228, 228);
     display: flex;
 }
 .icon{
-    display:flex;
     position:relative;
     img{
         margin: 0 1rem 0 0;
@@ -35,12 +39,23 @@ body {
 .contact-details{
     display: flex;
     flex-direction: column;
-    row-gap: .2rem;;
+    padding: 0 1rem;
+    row-gap: .15rem;
+    .name{
+        font-family: 'Magra', sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+    }
 }
-.social .img{
-    width: 35px;
-    height:35px;
-    margin: 5px;
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-betwe  en;
+    .img{
+        width: 2rem;
+        height:2rem;
+        margin: 5px;
+    }
 }
 /* SVG colors for social media */
 .bg-color {
@@ -58,28 +73,32 @@ body {
 }
 
 // SECTION EDUCATION
-.education{
-    margin: 1rem 0 .5rem 0;
-    padding: .5rem;
-    border-radius: .5rem;
-    box-shadow: 0 0 3px rgba(0, 0, 0, .75);
-    background-color: rgb(228, 228, 228);
-}
 .certificate{
+    font-size: .75rem;
     display: flex;
-    position: relative;
-    margin: 5px;
+    column-gap:  1rem;;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-bottom: 1px dotted rgb(161, 161, 161);
+    .title{
+        font-family: 'Magra', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
 }
 .certificate-image{
-    display:flex;
+    --image-size: 5rem;
     position:relative;
+    display: flex;
     background-color: #fff;
-    width: 7rem;
-    height: 7rem;
-    margin-right: 1rem;
+    min-width: var( --image-size );
+    max-width: var(--image-size);
+    min-height: var( --image-size );
+    max-height: var(--image-size);
     align-content: center;
+    justify-content: center;
     border-radius: 50%;
-    padding: 1rem;
+    padding: .5rem;
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: center center;
@@ -91,30 +110,128 @@ body {
     display: flex;
     flex-direction: column;
 }
-.experience{
-    img{
-        width:  130px;
-        height: 75px;
-    }
-    .from, 
-    .to,
-    .month,
-    .year{
-        display: inline-block;
-        padding:0;
-        margin:0;
-    }
-    .from::after{
-        content: " - ";
-        padding:0;
-        margin:0;
+
+//SKILL SECTION
+.skill{
+    font-size: .75em;
+
+    background-color: rgb(232, 232, 232);
+    padding: .25rem;
+    margin: .25rem 0;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    div{
+        padding: .25rem;
     }
 }
-.accomplishments ul{
-    margin:0;
+.skill-title{
+    width: 17rem;
 }
-.skill-measure{
+.skill-measure {
     height: 1rem;
     width: 15rem;
     border-radius: .5rem;
+}
+
+//EXPERIENCE SECTION
+.experience{
+    font-size: .9rem;
+    margin: 1rem 0;
+    border-bottom: 1px dotted var( --accent-color );
+    img{
+        width:  8rem;
+        height: 2.5rem;
+    }
+    .date{
+        --date-frame-color: #696969;
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        .from, 
+        .to{
+            display:flex;
+            flex-direction: column;
+            padding: .1rem .5rem;
+            background-color: var( --date-frame-color );
+            border: 1px solid var(--date-frame-color);
+            border-radius: .35rem;
+            color: white;
+        }
+        .title{
+            font-size: .75rem;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .month{
+            background-color: #fff;
+            color: var(--date-frame-color);
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2rem;;
+            margin: 0 -.5rem;
+        }
+    }
+    .details{
+        padding: var( --experience-container-padding );
+    }
+    .company{
+        color: rgb(82, 82, 82);
+    }
+    .location{
+        font-style: italic;
+    }
+    .accomplishments{
+        padding-top: var( --experience-container-padding);
+        li{
+            padding: .25rem;
+        }
+    }
+}
+.experience-head{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1rem;;
+    padding:0 var( --experience-container-padding );
+    font-family: 'Magra', sans-serif;
+    // background: rgb(230, 230, 230);
+    // background: linear-gradient(180deg, rgba(230, 230, 230, 1) 0%, rgba(230, 230, 230, 1) 19%, rgba(230, 230, 230, 0) 100%);
+}
+.role {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: .5rem 0;
+    justify-content: space-around;
+
+}
+.experience-factors{
+    padding: var(--experience-container-padding);
+    display: flex;
+    justify-content: space-between;
+}
+.factors-text{
+    display: flex;
+    flex-direction: column;
+}
+.factor-pie{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    background-image: conic-gradient(#ADD3FF 50%, #739AC6 50%, #739AC6 75%, #C7A973 75%);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.factor-pie-middle{
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.accomplishments ul{
+    margin:0;
 }

@@ -1,5 +1,5 @@
 export function getMonth(someDate) {
-    return someDate.length ? ("0" + (new Date(someDate).getMonth() + 1)).slice(-2)+"/" : "";
+    return someDate.length ? (new Date(someDate).toLocaleString("en-US",{month:"short"})) : "";
 }
 export function getYear(someDate) {
     return someDate.length ? new Date(someDate).getFullYear() : "";

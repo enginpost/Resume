@@ -10,11 +10,11 @@
             <path d="M10.655,13.708C10.655,14.512 9.281,14.234 8.959,12.89C8.562,11.23 8.286,7.75 8.683,5.423C9.011,3.496 11.852,0.02 16.912,0.094C23.051,0.184 29.723,6.643 31.518,10.346C32.419,12.206 33.221,20.124 27.157,23.571C25.145,24.715 28.587,20.368 29.706,17.546C30.792,14.807 31,11.825 30.284,10.837C28.804,8.795 23.161,7.163 17.729,8.742C11.104,10.668 10.655,12.905 10.655,13.708Z" style="fill:rgb(232,152,63);"/>
         </g>
         <g transform="matrix(1,0,0,0.865174,-3,0)">
-            <text x="36.132px" y="27.195px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:33px;fill:white;">N<tspan x="61.481px " y="27.195px ">X</tspan></text>
-            <text x="85.01px" y="27.195px" style="font-family:'ArialNarrow', 'Arial', sans-serif;font-stretch:condensed;font-size:33px;fill:white;">L<tspan x="101.578px 118.146px 133.199px 149.767px " y="27.195px 27.195px 27.195px 27.195px ">evel</tspan></text>
+            <text x="36.132px" y="27.195px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:33px;fill:rgb(47,47,47);">N<tspan x="61.481px " y="27.195px ">X</tspan></text>
+            <text x="85.01px" y="27.195px" style="font-family:'ArialNarrow', 'Arial', sans-serif;font-stretch:condensed;font-size:33px;fill:rgb(47,47,47);">L<tspan x="101.578px 118.146px 133.199px 149.767px " y="27.195px 27.195px 27.195px 27.195px ">evel</tspan></text>
         </g>
         <g transform="matrix(1,0,0,0.865174,1.75497,-0.695195)">
-            <text x="78.834px" y="35.23px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:8px;fill:white;">S<tspan x="87.29px 96.632px 104.201px 113.099px 121.106px 126.448px 135.791px 144.688px " y="35.23px 35.23px 35.23px 35.23px 35.23px 35.23px 35.23px 35.23px ">OLUTIONS</tspan></text>
+            <text x="78.834px" y="35.23px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:8px;fill:rgb(47,47,47);">S<tspan x="87.29px 96.632px 104.201px 113.099px 121.106px 126.448px 135.791px 144.688px " y="35.23px 35.23px 35.23px 35.23px 35.23px 35.23px 35.23px 35.23px ">OLUTIONS</tspan></text>
         </g>
     </g>
 </svg>
