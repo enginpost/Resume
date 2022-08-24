@@ -2,6 +2,9 @@
 @use 'foundation/foundation';
 
 //PAGE
+:root{
+    --accent-color: #739AC6
+}
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 14pt;
@@ -44,22 +47,14 @@ body {
     fill: rgb(255, 255, 255);
 }
 .fg-color {
-    fill: rgb(138, 138, 164);
+    fill: var( --accent-color );
 }
-.linked-in{
-    --backgroundColor: rgb(10, 102, 194);
-    --color: white;
-}
-.github{
-    --backgroundColor: rgb(10, 102, 194);
-    --color: white;
-}
-.art-station {
-    --backgroundColor: rgb(10, 102, 194);
-    --color: white;
-}
+.linked-in,
+.github,
+.art-station,
 .behance{
-    --color:rgb(10, 102, 194);
+    --backgroundColor: var( --accent-color );
+    --color: white;
 }
 
 // SECTION EDUCATION
@@ -79,11 +74,11 @@ body {
     display:flex;
     position:relative;
     background-color: #fff;
-    width: 15rem;
+    width: 7rem;
     height: 7rem;
     margin-right: 1rem;
     align-content: center;
-    border-radius: 5%;
+    border-radius: 50%;
     padding: 1rem;
     background-repeat: no-repeat;
     background-origin: content-box;
@@ -106,14 +101,20 @@ body {
     .month,
     .year{
         display: inline-block;
+        padding:0;
+        margin:0;
     }
     .from::after{
         content: " - ";
-    }
-    .month::after{
-        content: " /";
+        padding:0;
+        margin:0;
     }
 }
 .accomplishments ul{
     margin:0;
+}
+.skill-measure{
+    height: 1rem;
+    width: 15rem;
+    border-radius: .5rem;
 }

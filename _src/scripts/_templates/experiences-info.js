@@ -12,12 +12,10 @@ export function experiencesInfo_template( experiences_info ){ return `
             <div class="location">${experience.location.city}, ${experience.location.state}</div>
             <div class="date">
                 <div class="from">
-                    <div class="month">${getMonth(experience.date.from)}</div>
-                    <div class="year">${getYear(experience.date.from)}</div>
+                    <div class="month">${getMonth(experience.date.from)}</div><div class="year">${getYear(experience.date.from)}</div>
                 </div>
                 <div class="to">
-                    <div class="month">${getMonth(experience.date.to)}</div>
-                    <div class="year">${(getYear(experience.date.to)) ? getYear(experience.date.to) : "Current"}</div>
+                    <div class="month">${getMonth(experience.date.to)}</div><div class="year">${(getYear(experience.date.to)) ? getYear(experience.date.to) : "Current"}</div>
                 </div>
             </div>
             <div class="accomplishments">
