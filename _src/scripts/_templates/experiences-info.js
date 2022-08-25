@@ -1,4 +1,5 @@
 import { getMonth, getYear } from "../utilities/dates.js";
+import { factorsPieCreator } from "../utilities/factors.js";
 
 export function experiencesInfo_template( experiences_info ){ return `
 
@@ -29,7 +30,7 @@ export function experiencesInfo_template( experiences_info ){ return `
                     <div class="location">${experience.location.city}, ${experience.location.state}</div>
                 </div>
                 <div class="experience-factors-pie">
-                    <div class="factor-pie">
+                    <div class="factor-pie" style="${factorsPieCreator(experience.split)}">
                         <div class="factor-pie-middle"></div>
                     </div>
                 </div>
