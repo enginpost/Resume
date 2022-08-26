@@ -220,7 +220,7 @@
                 "role":"Agile Enterprise Coach and Product Owner",
                 "company":"United Health Group",
                 "icon": {
-                    "type": "png",
+                    "type": "svg",
                     "val": "/images/optum.svg",
                     "alt": "optum logo",
                     "class": "optum-logo"

@@ -1,5 +1,4 @@
 import { getMonth, getYear } from "../utilities/dates.js";
-import { factorsPieCreator } from "../utilities/factors.js";
 
 export function experiencesInfo_template( experiences_info ){ return `
 
@@ -30,17 +29,28 @@ export function experiencesInfo_template( experiences_info ){ return `
                     <div class="location">${experience.location.city}, ${experience.location.state}</div>
                 </div>
                 <div class="split-percentage">
-                    <div class="split-management" style="--split-percent:.1" title="Management was 10% of the position">10%</div>
-                    <div class="split-technical" style="--split-percent:.6" title="Technical was 60% of the position">60%</div>
-                    <div class="split-creative" style="--split-percent:.3" title="Creative was 30% of the position">10%</div>
+                    <div class="split-management" 
+                        style="--split-percent:${ experience.split.managerial * .1}" 
+                        title="Management was ${experience.split.managerial}% of the position">
+                            ${experience.split.managerial}%
+                    </div>
+                    <div class="split-technical"
+                        style="--split-percent:${ experience.split.technical * .1}" 
+                        title="Technical was ${experience.split.technical}% of the position">
+                            ${experience.split.technical}%
+                    </div>
+                    <div class="split-creative"
+                        style="--split-percent:${ experience.split.creative * .1}" 
+                        title="Creative was ${experience.split.creative}% of the position">
+                            ${experience.split.creative}%
+                    </div>
                 </div>
             </div>
             <div class="details">
                 <div class="accomplishments">
                     <ul>
-                        ${experience.accomplishments.map(accomplishment => { return `y
-                        
-            
+                        ${experience.accomplishments.map(accomplishment => { return `
+    
                         <li>${accomplishment}</li>
             
                         `}).join('')}
