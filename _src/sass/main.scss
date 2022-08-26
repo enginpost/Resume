@@ -233,3 +233,43 @@ h2{
 .accomplishments ul{
     margin:0;
 }
+.split-percentage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8pt;
+    color: white;
+    row-gap: 0;
+    padding: 0;
+    height: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(78, 78, 78);
+    background-color: rgb(162, 162, 162);
+    overflow: hidden;
+}
+.split-percentage:hover {
+    cursor: crosshair;
+}
+
+.split-management,
+.split-technical,
+.split-creative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    width: calc(250px * var(--split-percent));
+}
+
+.split-management {
+    background-color: #ADD3FF;
+}
+
+.split-technical {
+    background-color: #739AC6;
+}
+
+.split-creative {
+    background-color: #C7A973;
+}

@@ -29,16 +29,17 @@ export function experiencesInfo_template( experiences_info ){ return `
                     <div class="company">${experience.company}</div>
                     <div class="location">${experience.location.city}, ${experience.location.state}</div>
                 </div>
-                <div class="experience-factors-pie">
-                    <div class="factor-pie" style="${factorsPieCreator(experience.split)}">
-                        <div class="factor-pie-middle"></div>
-                    </div>
+                <div class="split-percentage">
+                    <div class="split-management" style="--split-percent:.1" title="Management was 10% of the position">10%</div>
+                    <div class="split-technical" style="--split-percent:.6" title="Technical was 60% of the position">60%</div>
+                    <div class="split-creative" style="--split-percent:.3" title="Creative was 30% of the position">10%</div>
                 </div>
             </div>
             <div class="details">
                 <div class="accomplishments">
                     <ul>
-                        ${experience.accomplishments.map(accomplishment => { return `
+                        ${experience.accomplishments.map(accomplishment => { return `y
+                        
             
                         <li>${accomplishment}</li>
             

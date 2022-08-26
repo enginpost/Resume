@@ -6,71 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume for Steve McDonald</title>
     <style>
-        :root{
-            --pie-size: 100px;
-        }
-        .skill-pie-container{
-            width: calc( var( --pie-size) + 30px);
-            height: calc( var( --pie-size) + 30px);
+        .split-percentage{
             display: flex;
-            align-items: center;
             justify-content: center;
-            border: 1pt dotted rgb(133, 133, 133);
-        }
-        .skill-pie-text{
-            border: 1pt dotted rgb(217, 23, 23);
-        }
-        .skill-split-pie{
-            width: var( --pie-size );
-            height: var( --pie-size );
-            border-radius: 50%;
-            display: flex;
             align-items: center;
-            justify-content: center;
-            background: conic-gradient(#ADD3FF 50%, #739AC6 50%, #739AC6 70%, #C7A973 70%);"
+            font-size: 8pt;
+            color:white;
+            row-gap: 0;
+            padding:0;
+            height: 10px;
+            width: 250px;
+            border-radius: 5px;
+            border: 1px solid rgb(78, 78, 78);
+            background-color:rgb(162, 162, 162);
+            overflow: hidden;
         }
-        .skill-split-pie-middle{
-            width: calc( var(--pie-size) - 50px );
-            height: calc( var(--pie-size) - 50px );
-            background-color:white;
-            border-radius: 50%;
+        .split-percentage:hover{
+            cursor:crosshair;
         }
-        .text-circle{
-            max-width: 175px;
+        .split-management,
+        .split-technical,
+        .split-creative{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            height: 12px;
+            width: calc( 250px * var( --split-percent) );
         }
-        .text-circle{
-            font-size: 25pt;
-            text-transform: uppercase;
+        .split-management{
+            background-color: #ADD3FF;
+        }
+        .split-technical{
+            background-color: #739AC6;
+        }
+        .split-creative{
+            background-color: #C7A973;
         }
     </style>
 </head>
 <body>
-<!--
-<div class="skill-pie-container">
-    <div class="skill-pie-text">
-        <div class="skill-split-pie">
-            <div class="skill-split-pie-middle"></div>
-        </div>
+    <div class="split-percentage">
+        <div class="split-management" style="--split-percent:.1" title="Management was 10% of the position">10%</div>
+        <div class="split-technical" style="--split-percent:.6" title="Technical was 60% of the position">60%</div>
+        <div class="split-creative" style="--split-percent:.3" title="Creative was 30% of the position">10%</div>
     </div>
-</div>
--->
-<svg xmlns="http://www.w3.org/2000/svg" 
-     xml:lang="en" xmlns:xLink="https://www.w3.org/1999/xlink"
-     viewBox="0 0 500 500" class="text-circle">
-    <title>management - </title> 
-    <defs>
-        <path   id="textcircle" d="M250,400 
-                a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
-                transform="rotate(12,250,250)" />
-    </defs>
-    <g class="textcircle">
-        <text textLength="900">
-            <textpath xlink:href="#textcircle" aria-label="management creative technical">
-                technical - management - creative - 
-            </textpath>
-        </text>
-    </g>
-</svg>
-
 </body>
 </html>
