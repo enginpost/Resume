@@ -55,9 +55,12 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    .img{
+    span{
+        display:flex;
         width: 2rem;
-        height:2rem;
+        height: 2rem;
+        padding: 0;
+        pointer-events: none;
         margin: 5px;
     }
 }
