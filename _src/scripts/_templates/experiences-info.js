@@ -32,17 +32,17 @@ export function experiencesInfo_template( experiences_info ){ return `
                     <div class="split-management" 
                         style="--split-percent:${ experience.split.managerial * .1}" 
                         title="Management was ${experience.split.managerial}% of the position">
-                            ${experience.split.managerial}%
+                            M
                     </div>
                     <div class="split-technical"
                         style="--split-percent:${ experience.split.technical * .1}" 
                         title="Technical was ${experience.split.technical}% of the position">
-                            ${experience.split.technical}%
+                           T
                     </div>
                     <div class="split-creative"
                         style="--split-percent:${ experience.split.creative * .1}" 
                         title="Creative was ${experience.split.creative}% of the position">
-                            ${experience.split.creative}%
+                            C
                     </div>
                 </div>
             </div>

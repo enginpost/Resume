@@ -4,53 +4,57 @@
 // PAGE
 :root{
     --accent-color: #739AC6;
+    --base-padding: 1rem;
+    --base-border-radius: 50%;
     --experience-container-padding: 1rem;
 }
 body {
     font-family: 'Merriweather', serif;
-    font-size: 14pt;
-    margin: 2rem;
+    font-size: 10pt;
+    margin: 0;
 }
 h2{
     text-align: center;
-    padding: 1rem;
+    padding: calc( var( --base-padding) * .5);
 }
 
 // SECTION: Contact Information
 .contact-info{
-    padding: .75rem;
-    border-radius: .5rem;
+    margin:0;
+    padding: var( --base-padding);
+    justify-content: space-between;
     box-shadow: 0 0 3px rgba(0,0,0,.75);
     background-color: rgb(228, 228, 228);
     display: flex;
 }
 .icon{
+    width: 40%;
     position:relative;
     img{
-        margin: 0 1rem 0 0;
-        border-radius: 50%;
+        margin:0;
+        border-radius: var( --base-border-radius );
     }
 }
 .me{
     height: 5rem;
     width: auto;
-    border-radius:50%;
+    border-radius: var( --base-border-radius );
 }
 .contact-details{
+    width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 0 1rem;
     row-gap: .15rem;
     .name{
         font-family: 'Magra', sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: bold;
     }
 }
 .social{
     display: flex;
     flex-direction: row;
-    justify-content: space-betwe  en;
+    justify-content: space-between;
     .img{
         width: 2rem;
         height:2rem;
@@ -76,13 +80,14 @@ h2{
 .certificate{
     font-size: .75rem;
     display: flex;
-    column-gap:  1rem;;
+    flex-direction: row;
+    column-gap:  1rem;
     margin: 1rem 0;
-    padding: 1rem;
+    padding: var( --base-padding );
     border-bottom: 1px dotted rgb(161, 161, 161);
     .title{
         font-family: 'Magra', sans-serif;
-        font-size: 1rem;
+        font-size: .85rem;
         font-weight: bold;
     }
 }
@@ -91,14 +96,14 @@ h2{
     position:relative;
     display: flex;
     background-color: #fff;
-    min-width: var( --image-size );
-    max-width: var(--image-size);
+    min-width:  var( --image-size );
+    max-width:  var(--image-size );
     min-height: var( --image-size );
     max-height: var(--image-size);
     align-content: center;
     justify-content: center;
-    border-radius: 50%;
-    padding: .5rem;
+    border-radius: var( --base-border-radius );
+    padding: calc( var( --base-padding) * .5 );
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: center center;
@@ -110,19 +115,23 @@ h2{
     display: flex;
     flex-direction: column;
 }
+.location-info{
+    display: flex;
+    flex-direction: column;
+}
 
 //SKILL SECTION
 .skill{
-    font-size: .75em;
+    font-size: .95em;
 
     background-color: rgb(232, 232, 232);
-    padding: .25rem;
-    margin: .25rem 0;
+    padding: calc( var( --base-padding ) * .25 );
+    margin: calc( var( --base-padding) * .25) 0;
     border-radius: .5rem;
     display: flex;
     align-items: center;
     div{
-        padding: .25rem;
+        padding: calc( var( --base-padding ) * .25 );
     }
 }
 .skill-title{
@@ -137,8 +146,8 @@ h2{
 //EXPERIENCE SECTION
 .experience{
     font-size: .9rem;
-    margin: 1rem 0;
-    padding-bottom: var( --experience-container-padding);
+    margin: var( --base-padding ) 0;
+    padding-bottom: var( --base-padding );
     border-bottom: 1px dotted var( --accent-color );
     img{
         width:  8rem;
@@ -182,7 +191,7 @@ h2{
     }
     .accomplishments{
         li{
-            padding: .25rem;
+            padding: calc( var( --base-padding ) * .25 );
         }
     }
 }
@@ -191,8 +200,8 @@ h2{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    column-gap: 1rem;;
-    padding:0 var( --experience-container-padding );
+    column-gap: 1rem;
+    padding:0 var( --base-padding );
     font-family: 'Magra', sans-serif;
 }
 .role {
@@ -215,7 +224,7 @@ h2{
     display: flex;
     width: 4rem;
     height: 4rem;
-    border-radius: 50%;
+    border-radius: var( --base-border-radius );
     justify-content: center;
     align-items: center;
 }
@@ -224,7 +233,7 @@ h2{
     width: 2.5rem;
     height: 2.5rem;
     background-color: #fff;
-    border-radius: 50%;
+    border-radius: var( --base-border-radius );
 }
 
 .accomplishments ul{
@@ -234,14 +243,13 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 8pt;
-    color: white;
-    row-gap: 0;
-    margin-top: .5rem;
+    font-size: 7pt;
+    color: rgb(44, 44, 44);
+    row-gap: 5px;
+    margin-top: calc( var( --base-padding ) * .5 );
     height: 1rem;
-    width: 250px;
-    // border-radius: 5px;
-    // border: 1px solid rgb(78, 78, 78);
+    min-width: 115px;
+    max-width: 115px;
     background-color: rgb(162, 162, 162);
     overflow: hidden;
 }
@@ -256,7 +264,7 @@ h2{
     justify-content: center;
     align-items: center;
     height: 1.1rem;
-    width: calc(250px * var(--split-percent));
+    width: calc(115px * var(--split-percent));
 }
 
 .split-management {
@@ -269,4 +277,41 @@ h2{
 
 .split-creative {
     background-color: #C7A973;
+}
+
+@media screen and (min-width: 800px) {
+    .page-content{
+        display: flex;
+        gap:2rem;
+        justify-content: center;
+    }
+    .sidebar{
+        max-width: 400px;
+        gap: 1em;
+    }
+    .main-content{
+        gap:1em;
+        min-width: 350px;
+        max-width: 800px;
+    }
+    .certificate{
+        margin: .15rem;
+        padding: 0 .15rem;
+    }
+    .certificate-image{
+        min-height: calc( var( --image-size ) * .5);
+        max-height: calc( var( --image-size ) * .5);
+    }
+    .location-info{
+        flex-direction: row;
+        column-gap: .15rem;
+    }
+    .skill{
+        margin: 0;
+        border-radius: 0;
+        border-bottom: 1px solid rgb(138, 138, 138);
+        div{
+            padding: .15rem;
+        }
+    }
 }

@@ -10,13 +10,15 @@ export function educationInfo_template(education_info) { return `
             </div>
             <div class="certificate-content">
                 <div class="title">${certificate.title}</div>
-                <div class="group">${certificate.group}</div>
-                <div class="location">${certificate.location}</div>
-                <div class="date">${certificate.date}</div>
+                <div class="location-info">
+                    <div class="group">${certificate.group}</div>
+                    <div class="location">${certificate.location}</div>
+                    <div class="date">${certificate.date}</div>
+                </div>
             </div>
         </div>
 
-        `}).join('')}
+    `}).join('')}
     </div>
 
 `;}
