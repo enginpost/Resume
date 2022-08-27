@@ -14,11 +14,18 @@ export function contactInfo_template( contact_info ){ return `
     <div class="social">
         ${contact_info.social.map(social_media => {
             return `
-            <div>    
-                <a href="${social_media.profile}"><object
-                        data="${social_media.icon.val}" 
-                        class="img"></object></a>
-            </div>
+
+                <a href="${social_media.profile}">
+                    <span>
+                        <object 
+                            data="${social_media.icon.val}" 
+                            title="${social_media.icon.alt}"
+                            type="image/svg+xml" 
+                            class="img">
+                        </object>
+                    </span>
+                </a>
+
         `}).join('')}
     </div>
 </div>
