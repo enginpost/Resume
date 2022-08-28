@@ -29,20 +29,17 @@ export function experiencesInfo_template( experiences_info ){ return `
                     <div class="location">${experience.location.city}, ${experience.location.state}</div>
                 </div>
                 <div class="split-percentage">
-                    <div class="split-management" 
-                        style="--split-percent:${ experience.split.managerial * .1}" 
-                        title="Management was ${experience.split.managerial}% of the position">
-                            M
+                    <div class="split" title="Management was ${experience.split.managerial}% of the position">
+                            <div class="title">MANAGEMENT</div>
+                            <div class="percentage" style="--split-percent: ${experience.split.managerial}%" >${experience.split.managerial}%</div>
                     </div>
-                    <div class="split-technical"
-                        style="--split-percent:${ experience.split.technical * .1}" 
-                        title="Technical was ${experience.split.technical}% of the position">
-                           T
+                    <div class="split" title="Technical was ${experience.split.technical}% of the position">
+                            <div class="title">TECHNICAL</div>
+                            <div class="percentage" style="--split-percent:${experience.split.technical}%">${experience.split.technical}%</div>
                     </div>
-                    <div class="split-creative"
-                        style="--split-percent:${ experience.split.creative * .1}" 
-                        title="Creative was ${experience.split.creative}% of the position">
-                            C
+                    <div class="split" title="Creative was ${experience.split.creative}% of the position">
+                            <div class="title">CREATIVE</div>
+                            <div class="percentage" style="--split-percent:${experience.split.creative}%" >${experience.split.creative}%</div>
                     </div>
                 </div>
             </div>
