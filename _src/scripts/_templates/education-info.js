@@ -1,3 +1,5 @@
+import { validCertURL } from "../utilities/certificate-validation.js";
+
 export function educationInfo_template(education_info) { return `
 
     <div class="certificates">
@@ -9,7 +11,7 @@ export function educationInfo_template(education_info) { return `
                 style="--bg-image: url(${certificate.icon.val})">
             </div>
             <div class="certificate-content">
-                <div class="title">${certificate.title}</div>
+                <div class="title">${ validCertURL( certificate.url, certificate.title)}</div>
                 <div class="location-info">
                     <div class="group">${certificate.group}</div>
                     <div class="location">${certificate.location}</div>

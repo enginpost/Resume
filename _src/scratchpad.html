@@ -6,89 +6,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume for Steve McDonald</title>
     <style>
-    :root{
-        font-size: 12pt;
-    }
-    .split-percentage{
-        display: flex;
-        flex-direction: column;
-        padding: .05rem;
-        gap: .05rem;
-        font-size: 8pt;
-        font-weight: bold;
-        width: 150px;
-        border-radius: 5px;
-        border-left: 1px solid rgb(225, 225, 225);
-        border-right: 1px solid rgb(225, 225, 225);
-    }
-    .split{
-        display: flex;
-        flex-direction: row;
-        gap: .05rem;
-        height: 1.1rem;
-        width: 95%; 
-        padding: .25rem;
-        border-radius: .05rem;
-    }
-    .split .title,
-    .split .percentage{
-        display: flex;
-        align-items: center;
-    }
-    .split .title{
-        height: 1rem;
-        color: rgb(54, 54, 54);
-        min-width: 90px;
-        max-width: 90px;
-    }
-    .split .percentage{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 1rem;
-        color:rgb(0, 0, 0);
-        background: linear-gradient(90deg, rgb(125, 196, 235) 0%, rgb(125, 196, 235) var( --split-percent ), rgb(180, 180, 180) var( --split-percent ));
-    }
+        .articles{
+            display: flex;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .articles-container{
+            display: relative;
+            margin: 0 10px;
+            width: 100%;
+            height: 100%;
+        }
+        .articles-slides{
+            list-style: none;
+            padding:0;
+            margin:0;
+        }
+        #article-image{
+            width:100%;
+            height: auto;
+        }
+        .articles-button{
+            font-weight: bold;
+            font-size: 14pt;
+            width: 1.5rem;
+            background-color: rgb(187, 187, 187);
+            color: rgb(255, 255, 255);
+            border-width: 0;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
-    <div class="split-percentage">
-        <div class="split" title="Management was 10% of the position">
-                <div class="title">MANAGEMENT</div>
-                <div class="percentage" style="--split-percent: 10%" >10%</div>
+    
+    <div class="articles">
+        <button type="button" class="articles-button article-button_previous">&lt;</button>
+        <div class="articles-container">
+            <a id="article-link" title="" href="#"><img src="/images/article-delivering-joy.jpg" alt="delivering joy" id="article-image"></a>
         </div>
-        <div class="split" title="Technical was 60% of the position">
-                <div class="title">TECHNICAL</div>
-                <div class="percentage" style="--split-percent:60%">60%</div>
-        </div>
-        <div class="split" title="Creative was 30% of the position">
-                <div class="title">CREATIVE</div>
-                <div class="percentage" style="--split-percent:30%" >30%</div>
-        </div>
+        <button class="articles-button article-button_next">&gt;</button>
     </div>
+   
+
+    <script>
+        var articles =  [
+                {
+                    "title":"Product management and delivering joy",
+                    "url":"https://www.linkedin.com/pulse/product-management-delivering-joy-steve-mcdonald/",
+                    "icon": {
+                        "type": "jpg",
+                        "val": "/images/article-delivering-joy.jpg",
+                        "alt": "Product Management and Delivering Joy",
+                        "class": "article-image"
+                    }
+                },
+                {
+                    "title": "Why project management is (often) a really bad idea",
+                    "url": "https://www.linkedin.com/pulse/why-project-management-often-really-bad-idea-steve-mcdonald/",
+                    "icon": {
+                        "type": "jpg",
+                        "val": "/images/article-pm-bad-idea.jpg",
+                        "alt": "Why project management is (often) a really bad idea",
+                        "class": "article-image"
+                    }
+                },
+                {
+                    "title": "When to dig in and when to move on",
+                    "url": "https://www.linkedin.com/pulse/when-dig-move-steve-mcdonald/",
+                    "icon": {
+                        "type": "jpg",
+                        "val": "/images/article-digin-or-moveon.jpg",
+                        "alt": "When to dig in and when to move on",
+                        "class": "article-image"
+                    }
+                },
+                {
+                    "title": "Wholistic Design and Other Fallacies",
+                    "url": "https://www.linkedin.com/pulse/wholistic-design-other-fallacies-steve-mcdonald/",
+                    "icon": {
+                        "type": "jpg",
+                        "val": "/images/article-wholistic-design-fallacy.jpg",
+                        "alt": "Wholistic Design and Other Fallacies",
+                        "class": "article-image"
+                    }
+                },
+                {
+                    "title": "Building a user and service centric product workflow",
+                    "url": "https://www.linkedin.com/pulse/user-service-centric-product-workflow-whitepaper-steve-mcdonald/",
+                    "icon": {
+                        "type": "jpg",
+                        "val": "/images/article-product-workflow.jpg",
+                        "alt": "Building a user and service centric product workflow",
+                        "class": "article-image"
+                    }
+                },
+                {
+                    "title": "Managing scrum dev team members",
+                    "url": "https://www.linkedin.com/pulse/managing-scrum-dev-team-members-steve-mcdonald/",
+                    "icon": {
+                        "type": "jpg",
+                        "val": "/images/article-managing-agile-dev-team-members.jpg",
+                        "alt": "Managing scrum dev team members",
+                        "class": "article-image"
+                    }
+                }
+            ];
+        var articleNumber = -1;
+        var articleCount = 0;
+        var articleTimeoutLength = 5000;
+        var changeArticleTimer;
+
+        articles.map(article => {
+            var articleLoader = new Image();
+            articleLoader.addEventListener("load", articleLoaded, false);
+            articleLoader.src= article.icon.val;
+        });
+
+        function articleLoaded(){
+            articleCount++;
+            if( articles.length == articleCount ){
+                setupArticleButtons();
+                changeArticle();
+            }
+        }
+
+        function setupArticleButtons(){
+
+            var previousArticle = document.querySelector(".article-button_previous");
+            previousArticle.addEventListener("click", (evt) =>{
+                clearTimeout(changeArticleTimer);
+                articleNumber = articleNumber - 2;
+                if( articleNumber < -1){
+                    console.log("negative number");
+                    articleNumber = articles.length-2;
+                }
+                changeArticle();
+            });
+            var nextArticle = document.querySelector(".article-button_next");
+            nextArticle.addEventListener("click", (evt) => {
+                clearTimeout(changeArticleTimer);
+                changeArticle();
+            });
+
+        }
+
+        function changeArticle(){
+            clearTimeout( changeArticleTimer );
+            articleNumber++;
+            if( articleNumber+1 > articles.length){
+                articleNumber = 0;
+            }
+            console.log("changing to", { articleNumber });
+            document.getElementById("article-image").src = articles[articleNumber].icon.val;
+            document.getElementById("article-image").alt = articles[articleNumber].icon.alt;
+            document.getElementById("article-link").href = articles[articleNumber].url;
+            document.getElementById("article-link").title = "Click to read " + articles[articleNumber].title;
+            setChangeArticleTimer();
+        }
+        function setChangeArticleTimer(){
+            changeArticleTimer = setTimeout(changeArticle, articleTimeoutLength);
+        } 
+    </script>
 </body>
 </html>
-
-
-
-<object data="${social_media.icon.val}" class="img"></object>
-
-
-                <div class="split-percentage">
-                    <div class="split-management" 
-                        style="--split-percent:${ experience.split.managerial * .1}" 
-                        title="Management was ${experience.split.managerial}% of the position">
-                            M
-                    </div>
-                    <div class="split-technical"
-                        style="--split-percent:${ experience.split.technical * .1}" 
-                        title="Technical was ${experience.split.technical}% of the position">
-                           T
-                    </div>
-                    <div class="split-creative"
-                        style="--split-percent:${ experience.split.creative * .1}" 
-                        title="Creative was ${experience.split.creative}% of the position">
-                            C
-                    </div>
-                </div>
-                

@@ -11,6 +11,16 @@ export function contactInfo_template( contact_info ){ return `
     </div>
     <div class="email">${contact_info.email}</div>
     <div class="phone">${contact_info.phone}</div>
+    <div class="downloads">
+        <div class="title">DOWNLOAD MY RESUME</div>
+        <div class="docs">
+        ${contact_info.docs.map(resume_doc => {
+            return `
+            <div><a href="${resume_doc.val}"><img src="${resume_doc.icon.val}" 
+                                                alt="${resume_doc.icon.alt}"></a></div>
+            `}).join('')}
+        </div>        
+    </div>
     <div class="social">
         ${contact_info.social.map(social_media => {
             return `

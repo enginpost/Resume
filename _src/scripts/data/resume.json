@@ -1,20 +1,48 @@
 {
     "resume":{
-        "docs":[
-            {
-                "type":"doc",
-                "val":""
-            },
-            {
-                "type": "txt",
-                "val": ""
-            },
-            {
-                "type": "pdf",
-                "val": ""
-            }
-        ],
         "contact_info":{
+            "docs": [
+                {
+                    "type": "PDF",
+                    "val": "/resume.pdf",
+                    "icon": {
+                        "type": "image",
+                        "val": "/images/pdf.png",
+                        "alt": "PDF resume download",
+                        "class": "resume-icon"
+                    }
+                },
+                {
+                    "type": "DOC",
+                    "val": "/resume.docx",
+                    "icon": {
+                        "type": "image",
+                        "val": "/images/doc.png",
+                        "alt": "Word Doc resume download",
+                        "class": "resume-icon"
+                    }
+                },
+                {
+                    "type": "TXT",
+                    "val": "/resume.txt",
+                    "icon": {
+                        "type": "image",
+                        "val": "/images/txt.png",
+                        "alt": "Text resume download",
+                        "class": "resume-icon"
+                    }
+                },
+                {
+                    "type": "JSN",
+                    "val": "/scripts/data/resume.json",
+                    "icon": {
+                        "type": "image",
+                        "val": "/images/jsn.png",
+                        "alt": "JSON resume download",
+                        "class": "resume-icon"
+                    }
+                }
+            ],
             "first_name": "Steve",
             "last_name": "McDonald",
             "icon": {
@@ -75,12 +103,76 @@
             ]
         },
         "career_summary":"Hello! I'm Steve. I like to provide creative, fun and professional inspiration to teams and products through aesthetic, functional and goal-oriented digital design and development that remains attentive to current needs as well and responsive to researched and empirically observed future audience needs.",
+        "articles":[
+            {
+                "title":"Product management and delivering joy",
+                "url":"https://www.linkedin.com/pulse/product-management-delivering-joy-steve-mcdonald/",
+                "icon": {
+                    "type": "jpg",
+                    "val": "/images/article-delivering-joy.jpg",
+                    "alt": "Product Management and Delivering Joy",
+                    "class": "article-image"
+                }
+
+            },
+            {
+                "title": "Why project management is (often) a really bad idea",
+                "url": "https://www.linkedin.com/pulse/why-project-management-often-really-bad-idea-steve-mcdonald/",
+                "icon": {
+                    "type": "jpg",
+                    "val": "/images/article-pm-bad-idea.jpg",
+                    "alt": "Why project management is (often) a really bad idea",
+                    "class": "article-image"
+                }
+            },
+            {
+                "title": "When to dig in and when to move on",
+                "url": "https://www.linkedin.com/pulse/when-dig-move-steve-mcdonald/",
+                "icon": {
+                    "type": "jpg",
+                    "val": "/images/article-digin-or-moveon.jpg",
+                    "alt": "When to dig in and when to move on",
+                    "class": "article-image"
+                }
+            },
+            {
+                "title": "Wholistic Design and Other Fallacies",
+                "url": "https://www.linkedin.com/pulse/wholistic-design-other-fallacies-steve-mcdonald/",
+                "icon": {
+                    "type": "jpg",
+                    "val": "/images/article-wholistic-design-fallacy.jpg",
+                    "alt": "Wholistic Design and Other Fallacies",
+                    "class": "article-image"
+                }
+            },
+            {
+                "title": "Building a user and service centric product workflow",
+                "url": "https://www.linkedin.com/pulse/user-service-centric-product-workflow-whitepaper-steve-mcdonald/",
+                "icon": {
+                    "type": "jpg",
+                    "val": "/images/article-product-workflow.jpg",
+                    "alt": "Building a user and service centric product workflow",
+                    "class": "article-image"
+                }
+            },
+            {
+                "title": "Managing scrum dev team members",
+                "url": "https://www.linkedin.com/pulse/managing-scrum-dev-team-members-steve-mcdonald/",
+                "icon": {
+                    "type": "jpg",
+                    "val": "/images/article-managing-agile-dev-team-members.jpg",
+                    "alt": "Managing scrum dev team members",
+                    "class": "article-image"
+                }
+            }
+        ],
         "education":[
             {
                 "title":"Bachelor of Business Administration-MIS",
                 "date":"1997",
                 "group":"University of Wisconsin",
                 "location":"Oshkosh, WI",
+                "url":"",
                 "icon":{
                     "type":"image",
                     "val":"/images/uwo.svg",
@@ -93,6 +185,7 @@
                 "date": "2013",
                 "group": "Project Management Institute",
                 "location": "Princeton, NJ",
+                "url": "",
                 "icon": {
                     "type": "image",
                     "val": "/images/pmi.svg",
@@ -105,6 +198,7 @@
                 "date": "2015",
                 "group": "The Weinschenk Institute",
                 "location": "Appleton, WI",
+                "url": "https://cutt.ly/tCqjhTp",
                 "icon": {
                     "type": "image",
                     "val": "/images/team-w.svg",
@@ -117,6 +211,7 @@
                 "date": "2016",
                 "group": "U of Illinois via Coursera.org",
                 "location": "Appleton, WI",
+                "url": " https://cutt.ly/BCqjRa",
                 "icon": {
                     "type": "image",
                     "val": "/images/coursera.svg",
@@ -129,6 +224,7 @@
                 "date": "2017",
                 "group": "Scrum.org",
                 "location": "Appleton, WI",
+                "url":"https://cutt.ly/uCqk8Vh",
                 "icon": {
                     "type": "image",
                     "val": "/images/psm-1.svg",
@@ -141,6 +237,7 @@
                 "date": "2019",
                 "group": "Scrum.org",
                 "location": "McKinney, TX",
+                "url":"https://cutt.ly/ACqlov5",
                 "icon": {
                     "type": "image",
                     "val": "/images/pspo-1.svg",
@@ -149,10 +246,24 @@
                 }
             },
             {
+                "title": "Certified LeSS Practitioner (Provisional)",
+                "date": "2021",
+                "group": "less.works",
+                "location": "McKinney, TX",
+                "url": " https://cutt.ly/fCqkaNP",
+                "icon": {
+                    "type": "image",
+                    "val": "/images/less.svg",
+                    "alt": "certified less practitioner provisional",
+                    "class": "clp-provisional"
+                }
+            },
+            {
                 "title": "Pro Scrum with User Experience (PSU 1)",
                 "date": "2022",
                 "group": "Scrum.org",
                 "location": "McKinney, TX",
+                "url": " https://cutt.ly/eCqlzFr",
                 "icon": {
                     "type": "image",
                     "val": "/images/psu-1.svg",
@@ -241,9 +352,9 @@
                 },
                 "accomplishments":[
                     "Coaching VPs, Directors, Managers, and Teams",
-                    "crafting enterprise vision for transformation and operations scaled across more than 100 teams",
-                    "Authoring training and training dev teams, POs, and Scrum Masters on Scrum and Kanban as well as leadership on oversight through the metrics of empowered teams.",
-                    "Product Owner for Optum Tech University Websites serving UHG staff with learn, coaching, delivery tools & analytics, and event services"
+                    "Crafting enterprise vision for transformation and operations scaled and descaled across more than 100 teams",
+                    "Authoring training and training dev teams, POs, and Scrum Masters on Scrum and Kanban as well as leadership on oversight through the metrics of empowered teams",
+                    "Product Owner for Optum Tech University Websites serving UHG staff with learning, coaching, delivery tools & analytics, and event services"
                 ]
             },
             {
@@ -271,7 +382,7 @@
                 "accomplishments": [
                     "Leading the careers of five Web Developers and coordinated sprint efforts for additional UX and Graphic Designers",
                     "Managed the budget in coordination with directors and vice presidents to align our work with organizational objectives",
-                    "Worked with IT and business leadership to roadmap product goals and vision for hudreds of public-facing member, provider, and partner Websites."
+                    "Worked with IT and business leadership to roadmap product goals and vision for hundreds of public-facing member, provider, and partner Websites"
                 ]
             },
             {
@@ -329,8 +440,8 @@
                     "Led e-learning and large scale training initiatives for the Veteran's Administration",
                     "Web-based management information systems solutions for the Department of Defense",
                     "Fund raising and identity Website for the Green Beret Foundation",
-                    "Mentored junior designers and developers.",
-                    "Crafted video production planning, script writing, shot planning, and post productions efforts."
+                    "Mentored junior designers and developers",
+                    "Crafted video production planning, script writing, shot planning, and post productions efforts"
                 ]
             },
             {
@@ -357,8 +468,8 @@
                 },
                 "accomplishments": [
                     "Worked with clients and subject matter experts to design new innovative approaches to e-learning storytelling",
-                    "Created a new framework for e-learning development, theming, and functional reuse.",
-                    "led junior designers and developers in the design, development and creation of project assets."
+                    "Created a new framework for e-learning development, theming, and functional reuse",
+                    "led junior designers and developers in the design, development and creation of project assets"
                 ]
             },
             {
@@ -414,7 +525,7 @@
                 "accomplishments": [
                     "Performed member, service, and partner research for the implementation of a new membership management platform",
                     "Coordinated RFQ and vendor demos for new member management platform",
-                    "Built the original EAA Fly-In RideShare community travel sharing and planning tool."
+                    "Built the original EAA Fly-In RideShare community travel sharing and planning tool"
                 ]
             },
             {
@@ -440,11 +551,11 @@
                     "technical": 40
                 },
                 "accomplishments": [
-                    "Leader on the executive team for the adjudicated social services non-profit.",
-                    "Managed the staff and budget of a small team (1 dev, 1 PM Analyst, 1 Network Admin)",
-                    "Budgeting and planning for the aquisition and depriciation of technical assets for 3 campus across Wisconsin.",
-                    "Upgraded and modernization of the network, from novel to fiber Active Directory network managed by Microsoft technologies.",
-                    "Managed and negotiated partner service resources to augment staffing for larger technology initiatives."
+                    "Leader on the executive team for the adjudicated social services non-profit",
+                    "Managed the staff and budget of a small team (one dev, one project manager, one network administrator)",
+                    "Budgeting and planning for the acquisition and depreciation of technical assets for three campus across Wisconsin",
+                    "Upgraded and modernization of the network, from Novel to fiber Active Directory network managed by Microsoft technologies",
+                    "Managed and negotiated partner service resources to augment staffing for larger technology initiatives"
                 ]
             },
             {
@@ -470,8 +581,9 @@
                     "technical": 30
                 },
                 "accomplishments": [
-                    "Managed and supervised proprietary 32-bit windows ETL service to convert electronic test fixture data from electronic manufacturing assembly lines producing millions of test records per hour.",
-                    "Promoted to manager the non-unix/non-mainframe development team working in modern 3rd and 4th gen languages."
+                    "Managed and supervised proprietary 32-bit windows ETL service to convert electronic test fixture data from electronic manufacturing assembly lines producing millions of test records per hour",
+                    "Promoted to manager the non-unix/non-mainframe development team working in modern 3rd and 4th gen languages",
+                    "Designed and developed creative web assets for marketing and recruitment campaigns and communications"
                 ]
             },
             {
@@ -500,9 +612,9 @@
                     "UX and aesthetic development and design for Web",
                     "Created tower adverts for Car dealerships",
                     "Created tower and banner adverts for Pepsi/Baja Blast Taco Bell product",
-                    "Made updates and created new functionality on Barney Hit Entertainment site",
+                    "Made updates and created new functionality on the Barney Hit Entertainment website",
                     "Built skinnabled hang-man-like Web game for a Chicago-based radio show",
-                    "Invented an ajaxian cross-domain approach to loading huge data using a headless implementation of Adobe Flash that could load data from other websites without needing server-side proxies (called FJax)."
+                    "Invented an ajaxian cross-domain approach to loading huge data using a headless implementation of Adobe Flash that could load data from other websites without needing server-side proxies (called FJax)"
                 ]
             },
             {
@@ -529,8 +641,8 @@
                 },
                 "accomplishments": [
                     "First US employee for a small British company located in Leeds, UK",
-                    "Created a static Web Content Management System that used MS Office tools to create and edit pages as well as define site navigation.",
-                    "Created a XML-based vendor communication tool that forwarded shipping invoices and manifests to partner businesses using Web Services and presented the data using a report presentation tool I created using XSLT transformations into printable PDFs."
+                    "Created a static Web Content Management System that used MS Office tools to create and edit pages as well as define site navigation",
+                    "Created a XML-based vendor communication tool that forwarded shipping invoices and manifests to partner businesses using Web Services and presented the data using a report presentation tool I created using XSLT transformations into printable PDFs"
                 ]
             },
             {

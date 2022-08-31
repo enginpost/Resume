@@ -51,6 +51,16 @@ h2{
         font-weight: bold;
     }
 }
+.downloads{
+    font-weight: bold;
+    font-size: .75rem;
+}
+.docs{
+    display: flex;
+    background-color: white;
+    border-radius: .15rem;
+    justify-content: space-around;
+}
 .social{
     display: flex;
     flex-direction: row;
@@ -111,7 +121,7 @@ h2{
     background-origin: content-box;
     background-position: center center;
 }
-.uwo, .pmi, .team-w, .coursera, .psm-1, .pspo-1, .psu-1{
+.uwo, .pmi, .team-w, .coursera, .psm-1, .pspo-1, .psu-1, .clp-provisional{
     background-image: var( --bg-image);
 }
 .certificate-content{
@@ -145,7 +155,40 @@ h2{
     width: 15rem;
     border-radius: .5rem;
 }
+//ARTICLES SECTION
+.articles {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
 
+.articles-container {
+    display: relative;
+    margin: 0 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.articles-slides {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#article-image {
+    width: 100%;
+    height: auto;
+}
+
+.articles-button {
+    font-weight: bold;
+    font-size: 14pt;
+    width: 1.5rem;
+    background-color: rgb(187, 187, 187);
+    color: rgb(255, 255, 255);
+    border-width: 0;
+    cursor: pointer;
+}
 //EXPERIENCE SECTION
 .experience{
     font-size: .9rem;
